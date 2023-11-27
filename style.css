@@ -1,0 +1,466 @@
+
+/*Top Bar Settings*/
+.topbar
+{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid yellow;
+    padding: 0px;
+}
+.topbar-container
+{
+    width: 1200px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    
+     
+     
+}
+.text   ul li
+{
+    display: inline-block;
+  
+   
+}
+.text ul li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 0px 0px 0px 20px;
+}
+.text ul li a:hover
+{
+    color: green;
+}
+.text ul li a:hover, a.active {
+    color: green !important;
+}
+.paint-logo i 
+{
+    padding: 10px;
+}
+/*Slider Settings*/
+.slider {
+    width: 100%;
+    background-image: url('images/slider/slider-1.jpg');
+    height: 500px;
+}
+
+.slider-container {
+    width: 600px;
+    display: flex;
+    
+    
+    margin: 0px 90px;
+}
+
+.mid-text h1 {
+    margin: 5px;
+    text-align: center; 
+}
+
+.mid-text {
+   background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 250px 0 auto;
+    
+}
+.content ul li 
+{
+    display: inline-block;
+    
+
+}
+.content ul li a 
+{
+    text-decoration: none;
+    color: black;
+    padding: 0px 50px;
+    font-size: 18px;
+    
+    
+
+}
+
+.content ul li a:hover
+{
+    background-color: rgb(74, 189, 74);
+}
+.content ul li a:hover, a.negative {
+    background-color: rgb(74, 189, 74) !important;
+}
+/*Mission Settings*/
+.mission-content
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mission-text h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.mission-text p
+{
+    margin: 20px 40px;
+    padding: 0px 50px;
+}
+.mission-text2 h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.mission-text2 p
+{
+    margin: 20px 40px;
+    padding: 0px 50px;
+}
+.mission-image img
+{
+    
+    display: flex;
+    flex-basis: 90%;
+    height: 600px;
+}
+
+/*Success Settings*/
+.success-content
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.success-text
+
+{
+    order: 1;
+}
+.success-image
+{
+    order: 2;
+   
+}
+.success-text h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  
+}
+.success-text p
+{
+    margin: 20px 60px;
+    padding: 6px 50px;
+}
+
+
+.success-image img
+{
+   
+    width: 100%;
+    height: 500px;
+}
+/*Succes2 Settings*/
+.success2-content
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: end;
+}
+
+.success2-text h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.success2-text p
+{
+    margin: 20px 40px;
+    padding: 0px 50px;
+}
+
+
+.success2-image img
+{
+   
+    width: 100%;
+    height: 500px;
+}
+/*Project Settings*/
+
+.project
+{
+   
+    width: 100%;
+  
+    
+}
+.project-container
+{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+}
+.project-image
+{
+float: left;
+
+}
+
+
+.image1
+{
+    background-image: url('images/project/project-1.jpg');
+    width: 400px;
+    height: 300px;
+}
+
+.image2
+{
+    background-image: url('images/project/project-2.jpg');
+    width: 400px;
+    height: 300px;
+}
+.image3
+{
+    background-image: url('images/project/project-3.jpg');
+    width: 400px;
+    height: 300px;
+}
+/*Project2 Settings*/
+.project2
+{
+   
+    width: 100%;
+  
+    
+}
+.project2-container
+{
+    width: 1200px;
+    display: flex;
+justify-content: flex-end;
+}
+
+
+.image {
+    float: left;
+    display: flex;
+    justify-content: center;
+    padding: 130px 0px;
+    
+}
+
+.image p {
+    font-size: 18px;
+}
+
+
+
+.image4
+{
+    background-image: url('images/project/project-4.jpg');
+    width: 400px;
+    height: 300px;
+}
+
+.image5
+{
+    background-image: url('images/project/project-5.jpg');
+    width: 400px;
+    height: 300px;
+}
+.image6
+{
+    background-image: url('images/project/project-6.jpg');
+    width: 400px;
+    height: 300px;
+}
+/*Team Settings*/
+.team
+{
+    width: 100%;
+
+}
+.team-container 
+{
+    width: 1366px;
+    float: left;
+   
+}
+.Glen
+{
+    width: 341px;
+    height: 450px;
+background-image:url('images/team/team-1.jpg') ;
+float: left;
+}
+.Glen p 
+{
+    display: flex;
+    justify-content: center;
+   padding: 0px 0px;
+  font-size: 16px;
+  margin: 0 auto;
+    
+
+}
+.Glen h1 
+{
+    display: flex;
+    justify-content: center;
+  padding: 320px 0px 0px 0px;
+  font-size: 24px;
+  margin: 0 auto;
+    
+
+}
+
+.Eva
+{
+    width: 341px;
+    height: 450px;
+background-image:url('images/team/team-2.jpg') ;
+float: left;
+}
+.Eva p 
+{
+    display: flex;
+    justify-content: center;
+   padding: 0px 0px;
+  font-size: 16px;
+  margin: 0 auto;
+    
+
+}
+.Eva h1 
+{
+    display: flex;
+    justify-content: center;
+  padding: 320px 0px 0px 0px;
+  font-size: 24px;
+  margin: 0 auto;
+    
+
+}
+.Ethan
+{
+    width: 341px;
+    height: 450px;
+background-image:url('images/team/team-3.jpg') ;
+float: left;
+}
+.Ethan p 
+{
+    display: flex;
+    justify-content: center;
+   padding: 0px 0px;
+  font-size: 16px;
+  margin: 0 auto;
+    
+
+}
+.Ethan h1 
+{
+    display: flex;
+    justify-content: center;
+  padding: 320px 0px 0px 0px;
+  font-size: 24px;
+  margin: 0 auto;
+    
+
+}
+.Maud
+{
+    width: 341px;
+    height: 450px;
+background-image:url('images/team/team-4.jpg') ;
+float: left;
+}
+.Maud p 
+{
+    display: flex;
+    justify-content: center;
+   padding: 0px 0px;
+  font-size: 16px;
+  margin: 0 auto;
+    
+
+}
+.Maud h1 
+{
+    display: flex;
+    justify-content: center;
+  padding: 320px 0px 0px 0px;
+  font-size: 24px;
+  margin: 0 auto;
+    
+
+}
+/*Footer Settings*/
+.footer-container
+{
+    width: 100%;
+    height: 600px;
+    background-color: #a8ca01;
+}
+.footer-text
+{
+    width: 1200px;
+    
+}
+.footer-text h3
+{
+    color: #faf9ff    ;
+  font-size: 30px;
+  
+ padding: 450px 0px 0px 0px;
+  text-align: center;
+}
+.footer-text p
+{
+    color: #faf9ff    ;
+  font-size: 16px;
+  
+ padding: 0px 10px 0px 0px;
+  text-align: center;
+}
+.footer-btn {
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 40px 0px 0px;
+}
+
+
+
+.footer-btn ul li {
+    display: inline-block;
+   
+   
+}
+
+.footer-btn ul li a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+
